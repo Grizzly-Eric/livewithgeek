@@ -1,0 +1,15 @@
+.whitecolor{
+    color: #fff ;
+}
+.font20px{
+    font-size: 20px ;
+}
+.font45px{
+    font-size: 45px ;
+}
+.oopblock .jumbotron{
+	transition:background .5s;
+}
+.oopblock .jumbotron:hover{
+    background: rgba(0,0,0,.1) !important
+}

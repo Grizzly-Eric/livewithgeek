@@ -10,8 +10,8 @@ const AjaxSend = function( action, url, data, callback ){
       url: "https://leancloud.cn:443/1.1" + url,
       method: action,
       headers: {
-        "x-lc-id": "pdTXKFbLP4uoCMc57yjzQEqX-gzGzoHsz",
-        "x-lc-key": "rUxa69bB5JswFbLs06qpaySi",
+        "x-lc-id": "***",
+        "x-lc-key": "***",
         "content-type": "application/json",
       },
       data: JSON.stringify(data)

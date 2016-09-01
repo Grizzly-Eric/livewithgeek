@@ -110,42 +110,42 @@ class Register extends React.Component {
     handleSubmit(e) {
 
       e.preventDefault();
-      console.log(this.state.formData.area)
+      // console.log(this.state.formData.area)
 
-      // AjaxSend('POST','/users', this.state.formData, (res) => {
-      //     if (res.status) {
-      //         // console($.parseJSON(res.responseText).error)
-      //         let Alerter = this.state.alertData;
-      //         Alerter.show = "show";
-      //         Alerter.color = "danger";
-      //         Alerter.icon = "remove";
-      //         Alerter.tit = "注册失败~";
-      //         Alerter.text = $.parseJSON(res.responseText).code + " " + $.parseJSON(res.responseText).error;
-      //         Alerter.link = null;
-      //         this.setState({alertData:Alerter});
-      //
-      //     } else {
-      //
-      //         // set cookie
-      //
-      //         $.cookie('G_objectId', res.objectId );
-      //         $.cookie('G_nickname', res.nickname );
-      //         $.cookie('G_sessionToken', res.sessionToken );
-      //         $.cookie('G_grouped', res.grouped );
-      //         $.cookie('G_city', res.city );
-      //
-      //         let Alerter = this.state.alertData;
-      //         Alerter.show = "show";
-      //         Alerter.color = "success";
-      //         Alerter.icon = "ok";
-      //         Alerter.tit = "注册成功~";
-      //         Alerter.text = "欢迎你，" + res.nickname + " ";
-      //         Alerter.link = "返回首页";
-      //         Alerter.url = "/#/"
-      //         this.setState({alertData:Alerter});
-      //     }
-      //     console.log(res)
-      // })
+      AjaxSend('POST','/users', this.state.formData, (res) => {
+          if (res.status) {
+              // console($.parseJSON(res.responseText).error)
+              let Alerter = this.state.alertData;
+              Alerter.show = "show";
+              Alerter.color = "danger";
+              Alerter.icon = "remove";
+              Alerter.tit = "注册失败~";
+              Alerter.text = $.parseJSON(res.responseText).code + " " + $.parseJSON(res.responseText).error;
+              Alerter.link = null;
+              this.setState({alertData:Alerter});
+      
+          } else {
+      
+              // set cookie
+      
+              $.cookie('G_objectId', res.objectId );
+              $.cookie('G_nickname', res.nickname );
+              $.cookie('G_sessionToken', res.sessionToken );
+              $.cookie('G_grouped', res.grouped );
+              $.cookie('G_city', res.city );
+      
+              let Alerter = this.state.alertData;
+              Alerter.show = "show";
+              Alerter.color = "success";
+              Alerter.icon = "ok";
+              Alerter.tit = "注册成功~";
+              Alerter.text = "欢迎你，" + res.nickname + " ";
+              Alerter.link = "返回首页";
+              Alerter.url = "/#/"
+              this.setState({alertData:Alerter});
+          }
+          console.log(res)
+      })
 
     }
 

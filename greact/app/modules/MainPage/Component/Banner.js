@@ -26,7 +26,7 @@ class Banner extends React.Component {
                     &nbsp;
                     &nbsp;
                     &nbsp;
-                    <a className="btn btn-danger btn-lg" role="button"  href="#/House">查找房源</a>
+                    <a className="btn btn-danger btn-lg" role="button"  href="#/Houselist">查找房源</a>
                   </p> : ""}
 
             </div>

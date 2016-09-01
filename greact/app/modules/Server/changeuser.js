@@ -10,8 +10,8 @@ const ChangeUser = function( token, userid, data, callback ){
       url: "https://leancloud.cn:443/1.1/users/" + userid,
       method: "PUT",
       headers: {
-        "x-lc-id": "***",
-        "x-lc-key": "***",
+        "x-lc-id": "pdTXKFbLP4uoCMc57yjzQEqX-gzGzoHsz",
+        "x-lc-key": "rUxa69bB5JswFbLs06qpaySi",
         "x-lc-session":token,
         "content-type": "application/json",
       },

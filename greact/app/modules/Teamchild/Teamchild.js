@@ -99,7 +99,6 @@ class Teamchild extends React.Component {
             <div className="jumbotron">
 
               <ol className="breadcrumb">
-                <li><a href="#">首页</a></li>
                 <li><a href="#">{this.state.team.city}</a></li>
                 <li><a href="#">{this.state.team.area}</a></li>
                 <li className="active">{this.state.team.objectId}</li>

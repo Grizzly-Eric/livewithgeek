@@ -189,7 +189,7 @@ class Addteam extends React.Component {
                       <div className="form-group">
                           <div className="col-xs-offset-4 col-xs-9">
                               <button type="submit" className="btn btn-primary">提交</button>&nbsp;
-                              <a className="btn btn-default" href="#/Teamholl" role="button">返回大厅</a>
+                              <a className="btn btn-default" href="#/Team" role="button">返回大厅</a>
                           </div>
                       </div>
 

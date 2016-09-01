@@ -37,7 +37,7 @@ class Header extends React.Component {
                     <span className="icon-bar"></span>
                     <span className="icon-bar"></span>
                   </button>
-                  <Link className="navbar-brand" to='/'>
+                  <Link className="navbar-brand" to='/' style={{whiteSpace:"nowrap"}}>
                     LiveWithGeek <small>极客室友</small>
                   </Link>
                 </div>
@@ -55,8 +55,8 @@ class Header extends React.Component {
                       </ul>
                     </li>
                     <li><Link to='/Team'>队伍大厅</Link></li>
-                    <li><Link to='/Homelist'>房源列表</Link></li>
-                    <li><Link to='/Homesource'>提供房源</Link></li>
+                    <li><Link to='/Houselist'>房源列表</Link></li>
+                    <li><Link to='/Addhouse'>提供房源</Link></li>
                   </ul>
 
                   {loginInfo}

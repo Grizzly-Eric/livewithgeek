@@ -18,7 +18,7 @@ class Teamlist extends React.Component {
     componentDidMount() {
         AjaxGet( "GET" , "/classes/Team" , (response)=> {
 
-          let listData = response.results.map(lists => {
+          let listData = response.results.reverse().map(lists => {
 
             let teamtime = new Date(lists.updatedAt);
             let timestamp = Date.parse(new Date());

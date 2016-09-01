@@ -8,8 +8,8 @@ const AjaxGet = function( method, url, callback ){
       url: "https://leancloud.cn:443/1.1" + url,
       method: method,
       headers: {
-        "x-lc-id": "***",
-        "x-lc-key": "***",
+        "x-lc-id": "pdTXKFbLP4uoCMc57yjzQEqX-gzGzoHsz",
+        "x-lc-key": "rUxa69bB5JswFbLs06qpaySi",
         "content-type": "application/json",
       }
     }

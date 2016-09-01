@@ -28,8 +28,8 @@ class Logintag extends React.Component {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                  {$.cookie("G_grouped"!=="null")?
-                    <Link to={"/Team/" + $.cookie("G_grouped")}>我的队伍{$.cookie("G_grouped")}</Link>:
+                  {$.cookie("G_grouped")!=="" && $.cookie("G_grouped")!==null?
+                    <Link to={"/Team/" + $.cookie("G_grouped")}>我的队伍</Link>:
                     <a href="javascript:;" disabled>还没加入组队</a>
                   }
                   </li>

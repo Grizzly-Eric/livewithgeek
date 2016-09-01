@@ -28,7 +28,7 @@ class MainPage extends React.Component {
                             ></Block>
                     </div>
                     <div className="col-sm-4 col-xs-6">
-                      <Block tit="虹桥"
+                      <Block tit="虹桥中心"
                            subtit="16个租客"
                            image="block2.jpg"
                           ></Block>
@@ -66,49 +66,49 @@ class MainPage extends React.Component {
                 <div className="container">
 
                   <div className="row text-center">
-                    <div className="col-sm-6 col-md-3">
+                    <div className="col-xs-6 col-sm-3">
                       <div className="thumbnail">
                         <img src="./app/images/icon-music.svg" style={{height:120,margin:"30px auto"}} />
                         <div className="caption">
                           <h3>17 位乐手</h3>
                           <p className="text-center">
-                            <a href="#" className="btn btn-primary" role="button">加入他们</a> 
+                            <a href="#" className="btn btn-primary" role="button">加入他们</a>
                           </p>
                         </div>
                       </div>
                     </div>
 
-                    <div className="col-sm-6 col-md-3">
+                    <div className="col-xs-6 col-sm-3">
                       <div className="thumbnail">
                         <img src="./app/images/icon-food.svg" style={{height:120,margin:"30px auto"}} />
                         <div className="caption">
                           <h3>215 枚吃货</h3>
                           <p className="text-center">
-                            <a href="#" className="btn btn-primary" role="button">加入他们</a> 
+                            <a href="#" className="btn btn-primary" role="button">加入他们</a>
                           </p>
                         </div>
                       </div>
                     </div>
 
-                    <div className="col-sm-6 col-md-3">
+                    <div className="col-xs-6 col-sm-3">
                       <div className="thumbnail">
                         <img src="./app/images/icon-study.svg" style={{height:120,margin:"30px auto"}} />
                         <div className="caption">
                           <h3>99 个学霸</h3>
                           <p className="text-center">
-                            <a href="#" className="btn btn-primary" role="button">加入他们</a> 
+                            <a href="#" className="btn btn-primary" role="button">加入他们</a>
                           </p>
                         </div>
                       </div>
                     </div>
 
-                    <div className="col-sm-6 col-md-3">
+                    <div className="col-xs-6 col-sm-3">
                       <div className="thumbnail">
                         <img src="./app/images/icon-sport.svg" style={{height:120,margin:"30px auto"}} />
                         <div className="caption">
                           <h3>41 位球迷</h3>
                           <p className="text-center">
-                            <a href="#" className="btn btn-primary" role="button">加入他们</a> 
+                            <a href="#" className="btn btn-primary" role="button">加入他们</a>
                           </p>
                         </div>
                       </div>

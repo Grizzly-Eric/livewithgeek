@@ -92,7 +92,7 @@ class Messagebox extends React.Component {
                     if (response.objectId) {
                         console.log("bind success~")
                         let newmsg = this.state.msg;
-                        newmsg.push({
+                        newmsg.unshift({
                             content:this.state.saying,
                             author:$.cookie("G_nickname"),
                             authorid:$.cookie("G_objectId"),
@@ -115,7 +115,7 @@ class Messagebox extends React.Component {
         AjaxGet("GET",url,(res)=>{
             console.log(res)
             this.setState({
-                msg:res.results
+                msg:res.results.reverse()
             })
         })
     }

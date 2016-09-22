@@ -13,7 +13,7 @@ class MainPage extends React.Component {
             <div>
                 <Banner
                   position="head"
-                  tit="和有趣的年轻人住在一起"
+                  tit="1和有趣的年轻人住在一起"
                   subtit="Live with geek, and make a difference in your life."
                   img="bannerImg11.jpg">
                 </Banner>

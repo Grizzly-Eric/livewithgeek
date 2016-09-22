@@ -8,7 +8,7 @@ class Banner extends React.Component {
 
         let bannerStyle = {
             padding:"180px 0",
-            background: "url('./app/images/"+this.props.img+"') center center",
+            background: "url('./dist/images/"+this.props.img+"') center center",
             backgroundSize: "cover"
         }
 

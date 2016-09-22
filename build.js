@@ -27726,7 +27726,7 @@
 	        null,
 	        _react2.default.createElement(_Banner2.default, {
 	          position: 'head',
-	          tit: '和有趣的年轻人住在一起',
+	          tit: '1和有趣的年轻人住在一起',
 	          subtit: 'Live with geek, and make a difference in your life.',
 	          img: 'bannerImg11.jpg' }),
 	        _react2.default.createElement(
@@ -27953,7 +27953,7 @@
 	
 	            var bannerStyle = {
 	                padding: "180px 0",
-	                background: "url('./app/images/" + this.props.img + "') center center",
+	                background: "url('./dist/images/" + this.props.img + "') center center",
 	                backgroundSize: "cover"
 	            };
 	
@@ -28391,7 +28391,7 @@
 	        value: function render() {
 	
 	            var blockStyle = {
-	                background: "url('./app/images/" + this.props.image + "') center center",
+	                background: "url('./dist/images/" + this.props.image + "') center center",
 	                backgroundSize: "cover",
 	                marginBottom: "30px",
 	                overflow: "hidden",

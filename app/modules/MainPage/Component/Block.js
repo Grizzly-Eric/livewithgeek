@@ -7,7 +7,7 @@ class Block extends React.Component {
     render() {
 
         let blockStyle = {
-            background: "url('./app/images/" + this.props.image + "') center center",
+            background: "url('./dist/images/" + this.props.image + "') center center",
             backgroundSize: "cover",
             marginBottom:"30px",
             overflow:"hidden",
